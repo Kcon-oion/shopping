@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopdetailActivity"
+
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="670dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="410dp"
+                android:layout_height="410dp"
+                >
+
+            </ImageView>
+            <TextView
+                style="@style/shopdata"
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="30dp"
+                android:textColor="@color/OrangeRed">
+
+            </TextView>
+            <TextView
+                style="@style/shopdata"
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:textSize="20dp">
+
+            </TextView>
+            <TextView
+                style="@style/shopdata"
+                android:id="@+id/shipadress"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                 >
+
+            </TextView>
+
+            <TextView
+                style="@style/shopdata"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="活动 红包省钱卡,开卡本单立减">
+
+            </TextView>
+            <TextView
+                style="@style/shopdata"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="服务  七天无理由退货 付款三天内发货">
+
+            </TextView>
+            <TextView
+                style="@style/shopdata"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="参数">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:gravity="right|center"
+
+     >
+<Button
+    android:id="@+id/join"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="加入购物车"
+    android:textColor="@color/white"
+    android:background="@color/OrangeRed"
+
+    >
+
+</Button>
+
+ <Button
+     android:id="@+id/buy"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="立即购买"
+     android:textColor="@color/white"
+     android:background="@color/OrangeRed"
+     android:layout_marginRight="10dp">
+
+ </Button>
+ </LinearLayout>
+</LinearLayout>

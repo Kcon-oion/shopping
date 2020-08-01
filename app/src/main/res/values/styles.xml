@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="shop_item">
+        <item name="android:background">@drawable/shop_item_style</item>
+    </style>
+
+    <style name="shopping">
+        <item name="android:background">@drawable/shopping</item>
+        <item name="android:src">@drawable/shopping</item>
+
+    </style>
+     <style name="MyFull" parent="AppTheme">
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+        </style>
+
+    <style name="shopdata">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+</resources>

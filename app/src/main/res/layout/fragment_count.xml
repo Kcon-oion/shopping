@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.count.CountFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ListView
+        android:id="@+id/countlistview"
+        android:layout_width="410dp"
+        android:layout_height="match_parent"></ListView>
+    <Button
+        android:id="@+id/countchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="切换账户"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_selector">
+
+    </Button>
+
+
+
+        <Button
+            android:id="@+id/countback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="40dp"
+            android:text="退出登录"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_selector">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

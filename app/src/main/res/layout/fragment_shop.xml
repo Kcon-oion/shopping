@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.shop.ShopFragment"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shoppingtrolley"
+        android:layout_width="match_parent"
+        android:layout_height="541dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:gravity="right">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10dp"
+            android:text="￥">
+
+        </TextView>
+        <TextView
+            android:id="@+id/allprice"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10dp"
+            android:text="0">
+
+        </TextView>
+        <Button
+            android:id="@+id/settlement"
+            style="@style/shop_item"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:text="结算"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

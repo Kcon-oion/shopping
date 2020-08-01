@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.shop.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_hot"
+        android:name="com.example.shop.ui.hot.HotFragment"
+        android:label="@string/title_hot"
+        tools:layout="@layout/fragment_hot" />
+    <fragment
+        android:id="@+id/navigation_shop"
+        android:name="com.example.shop.ui.shop.ShopFragment"
+        android:label="@string/title_shop"
+        tools:layout="@layout/fragment_shop" />
+    <fragment
+        android:id="@+id/navigation_count"
+        android:name="com.example.shop.ui.count.CountFragment"
+        android:label="@string/title_count"
+        tools:layout="@layout/fragment_count" />
+
+
+</navigation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shop_photo">
+        <item>image1</item>
+        <item>image2</item>
+        <item>image3</item>
+        <item>image4</item>
+        <item>image5</item>
+        <item>image6</item>
+        <item>image7</item>
+        <item>image8</item>
+        <item>image9</item>
+        <item>image10</item>
+        <item>image11</item>
+        <item>image12</item>
+        <item>image13</item>
+        <item>image14</item>
+        <item>image15</item>
+        <item>image16</item>
+        <item>image17</item>
+        <item>image18</item>
+        <item>image19</item>
+        <item>image20</item>
+        <item>image21</item>
+        <item>image22</item>
+        <item>image23</item>
+        <item>image24</item>
+        <item>image25</item>
+        <item>image26</item>
+
+    </string-array>
+
+</resources>

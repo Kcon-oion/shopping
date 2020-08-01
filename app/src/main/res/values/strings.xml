@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">shop</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_home">Home</string>
+    <string name="title_hot">Hot</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_count">Count</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

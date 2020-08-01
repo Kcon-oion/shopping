@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ff572a"
+        >
+        <EditText
+            android:id="@+id/shop"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:imeOptions="actionNext">
+        </EditText>
+
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/search">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homeshoprecycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/viewPager">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
